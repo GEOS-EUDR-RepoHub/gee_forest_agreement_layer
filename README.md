@@ -9,7 +9,6 @@ This repository hosts two Google Earth Engine (GEE) scripts designed to generate
 The repository includes:
 - **src/** – the main GEE scripts written in JavaScript  
 - **docs/** – PDF tutorials that explains the reasoning, steps, and interpretation  
-- **results/** – example outputs such as preview maps, summary tables, and sample agreement layers
 
 ---
 
@@ -23,6 +22,33 @@ Key steps performed by the script:
 4. Export or display the final map in the GEE interface
 5. Provide summary tables of forest/tree cover area  
 
+---
+
+## Scripts
+
+### 1. ROI Script
+**Purpose:** Generates a forest agreement layer over user-defined ROIs in GEE.  
+
+**Key Features:**
+- Supports ROIs drawn in the Code Editor, built-in boundaries, imported from Drive/Assets, programmatically created, or derived from image/collection bounds.  
+- Covers data preparation, reclassification, agreement calculation, cluster-based exports, and forest extent summaries.  
+- Includes a user section for setting parameters and an automated section that handles all processing steps.  
+
+**File:** `src/Geodata_script/GEE_forest_agreement_ROI_v1.0.js` (or `.js` if in GEE Code Editor)  
+
+---
+
+### 2. GeoData Script
+**Purpose:** Generates a forest agreement layer over user-defined polygons or points.  
+
+**Key Features:**
+- Performs data preparation, reclassification, agreement calculation, cluster-based exports, and forest extent summaries.  
+- Includes a user section for setting parameters and an automated section that handles all processing steps.  
+
+**File:** `src/Geodata_script/GEE_forest_agreement_GEODATA_v1.0.js` (or `.js` if in GEE Code Editor)  
+
+---
+> **Note:** Both scripts are designed to be modular and user-friendly, allowing you to reproduce analyses over custom ROIs or polygons with minimal setup.
 ---
 
 ## How to Run the Script
