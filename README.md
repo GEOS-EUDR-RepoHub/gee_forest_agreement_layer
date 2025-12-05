@@ -36,6 +36,10 @@ Key steps performed by the script:
 
 **File:** `src/Geodata_script/GEE_forest_agreement_ROI_v1.0.js` 
 
+**Quick View / Test in GEE**
+You can view and run the script directly in Google Earth Engine: (recommended for quick checks, but not for full development) 
+[GEE Code Editor Link](https://code.earthengine.google.com/your-script-link)
+
 ---
 
 ### 2. GeoData Script
@@ -46,6 +50,9 @@ Key steps performed by the script:
 - Includes a user section for setting parameters and an automated section that handles all processing steps.  
 
 **File:** `src/Geodata_script/GEE_forest_agreement_GEODATA_v1.0.js` 
+
+**Quick View / Test in GEE**: [GEE Code Editor Link](https://code.earthengine.google.com/your-script-link)
+
 
 ---
 > **Note:** Both scripts are designed to be modular and user-friendly, allowing you to reproduce analyses over custom ROIs or polygons with minimal setup.
