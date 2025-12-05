@@ -66,6 +66,12 @@ This project is released under the terms of the license specified in the `LICENS
 
 ---
 
+## Publications
+
+This project is associated with several publications, dataset descriptions, and policy briefs.  
+For detailed information, please see the dedicated [Publications](publications.md) page.
+
+
 ## Contact
 If you have questions or suggestions, feel free to open an issue in this repository or reach out directly.
 
