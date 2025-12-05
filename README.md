@@ -34,7 +34,7 @@ Key steps performed by the script:
 - Covers data preparation, reclassification, agreement calculation, cluster-based exports, and forest extent summaries.  
 - Includes a user section for setting parameters and an automated section that handles all processing steps.  
 
-**File:** `src/Geodata_script/GEE_forest_agreement_ROI_v1.0.js` (or `.js` if in GEE Code Editor)  
+**File:** `src/Geodata_script/GEE_forest_agreement_ROI_v1.0.js` 
 
 ---
 
@@ -45,14 +45,14 @@ Key steps performed by the script:
 - Performs data preparation, reclassification, agreement calculation, cluster-based exports, and forest extent summaries.  
 - Includes a user section for setting parameters and an automated section that handles all processing steps.  
 
-**File:** `src/Geodata_script/GEE_forest_agreement_GEODATA_v1.0.js` (or `.js` if in GEE Code Editor)  
+**File:** `src/Geodata_script/GEE_forest_agreement_GEODATA_v1.0.js` 
 
 ---
 > **Note:** Both scripts are designed to be modular and user-friendly, allowing you to reproduce analyses over custom ROIs or polygons with minimal setup.
 ---
 
 ## How to Run the Script
-1. Open the GEE Code Editor and paste the script, or use the shareable link provided at XXX.  
+1. Open the GEE Code Editor and paste the script, or use the shareable link provided at XXX (using the link is not recommended for full reproducibility).  
 2. Adjust the input parameters at the top of the script (ROI, datasets, thresholds).  
 3. Run the script to generate the agreement layer.  
 4. Export the final result if desired (e.g., to Google Drive, Earth Engine Assets).  
