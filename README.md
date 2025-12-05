@@ -58,6 +58,7 @@ You can view and run the script directly in Google Earth Engine: (recommended fo
 > **Note:** Both scripts are designed to be modular and user-friendly, allowing you to reproduce analyses over custom ROIs or polygons with minimal setup.
 ---
 
+
 ## How to Run the Script
 1. Open the GEE Code Editor and paste the script, or use the shareable link provided at XXX (using the link is not recommended for full reproducibility).  
 2. Adjust the input parameters at the top of the script (ROI, datasets, thresholds).  
