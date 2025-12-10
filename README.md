@@ -100,7 +100,14 @@ Use it as a companion to the script for understanding how the workflow fits toge
 - Exported raster of the forest agreement layer for the ROI
 - CSV file summarizing forest/tree cover area  
 
+---
 
+## **Color Legend**
+Color scheme provided in three formats `(.xlsx, .clr, .txt)`, aligned with the structure used in the GEE scripts.
+This makes it easier to use the same colors in other environments, such as GIS software or geopandas.
+**Found in:** `src/color_legend/`
+
+---
 
 ## License
 This project is released under the terms of the license specified in the `LICENSE` file.
