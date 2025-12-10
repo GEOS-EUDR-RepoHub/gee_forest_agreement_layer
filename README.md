@@ -40,9 +40,12 @@ Key steps performed by the script:
 **File:** `src/Geodata_script/GEE_forest_agreement_ROI_v1.0.js` 
 
 **Quick View / Test in GEE**
-You can view and run the script directly in Google Earth Engine: (recommended for quick checks, but not for full development) 
+You can view and run the script directly in Google Earth Engine: 
 [GEE Code Editor Link](https://code.earthengine.google.com/your-script-link)
 
+---
+> **Note:** Using the GEE sharable link directly is ONLY recommended for quick checks, testing, or exploring results, but not ideal for full development,
+since relying on the shared GEE link can make version control, reproducibility, and integration with other tools more difficult.
 ---
 
 ### 2. GeoData Script
@@ -97,6 +100,12 @@ Use it as a companion to the script for understanding how the workflow fits toge
 - Exported raster of the forest agreement layer for the ROI
 - CSV file summarizing forest/tree cover area  
 
+---
+## Color Legend (`src/color_legend/`)
+ 
+Color scheme provided in three formats (.xlsx, .clr, .txt), aligned with the structure used in the GEE scripts. 
+This makes it easier to use the same colors in other environments, such as GIS software or geopandas..
+Found in: `src/color_legend/` 
 ---
 
 ## License
