@@ -58,7 +58,7 @@ Key steps performed by the script:
 
 **Quick View / Test in GEE**
 You can view and run the script directly in Google Earth Engine: 
-[GEE Code Editor Link](https://code.earthengine.google.com/c0fd2cfa922d3a145ead8bcd0130d932)
+[GEE Code Editor Link](https://code.earthengine.google.com/75f2a18de48bbcad213f35331d355ccf)
 
 ---
 > **Note:** Using the GEE sharable link directly is ONLY recommended for quick checks, testing, or exploring results, but not ideal for full development,
