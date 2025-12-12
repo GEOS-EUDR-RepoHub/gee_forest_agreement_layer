@@ -14,8 +14,15 @@ This repository is associated with the following publications and datasets. The 
 - **DOI:** [10.3390/rs17173012](https://doi.org/10.3390/rs17173012)  
 - **Associated Scripts/Notebooks:** `src/Geodata_script`, `src/ROI_script`
 
-#### This works has be presented at:
+#### This work has been presented at:
 
+- **Conference:** Living Planet Symposium (ESA LPS25)  
+- **Presentation type:** Oral presentation  
+- **Title:** Assessing Suitability of Available Global Forest Maps as Reference Tools for EUDR-Compliant Deforestation Monitoring  
+- **Dates:** 22–27 June 2025  
+- **Location:** Vienna, Austria  
+- **Organizer:** European Space Agency (ESA)  
+- **Scope:** International conference on Earth observation and sustainable resource monitoring. Work presented during one of the EUDR-related sessions.
 
 ---
 
