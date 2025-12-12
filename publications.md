@@ -34,7 +34,7 @@ This repository is associated with the following publications and datasets. The 
 - **Title:** Ensuring EUDR Compliance: Evaluating Global Forest Maps for Deforestation Monitoring
 - **Year:** 2025
 - **Authors** Juliana Freitas Beyer, Margret Köthke and Melvin Lippe  
-- **DOI/Identifier:** [XXX ](https://doi.org/10.5281/zenodo.17287552) 
+- **DOI/Identifier:** [(https://doi.org/10.5281/zenodo.17287552]
 - **Associated Scripts/Notebooks:** `src/Geodata_script`, `src/ROI_script`
 - **Suggested citation:** Freitas Beyer, J., Köthke, M., & Lippe, M. (2025). GEOS-EUDR: Technical and Policy Brief No.1. Zenodo. https://doi.org/10.5281/zenodo.17287552
 
