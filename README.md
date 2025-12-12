@@ -29,7 +29,24 @@ Key steps performed by the script:
 
 ## Scripts
 
-### 1. ROI Script
+### 1. GeoData Script
+**Purpose:** Generates a forest agreement layer over user-defined polygons or points.  
+
+**Key Features:**
+- Performs data preparation, reclassification, agreement calculation, sieve-filtering, cluster-based exports, and forest extent summaries.  
+- Includes a user section for setting parameters and an automated section that handles all processing steps.
+- For polygon datasets, the assessment is carried out directly on each polygon. For point datasets, a user-defined buffer is created around each point to simulate a polygon, and the assessment is then performed within that buffered area.
+
+**File:** `src/Geodata_script/GEE_forest_agreement_GEODATA_v1.0.js` 
+
+**Quick View / Test in GEE**: [GEE Code Editor Link](https://code.earthengine.google.com/c0fd2cfa922d3a145ead8bcd0130d932)
+
+
+---
+> **Note:** Both scripts are designed to be modular and user-friendly, allowing you to reproduce analyses over custom ROIs or polygons/points with minimal setup.
+---
+
+### 2. ROI Script
 **Purpose:** Generates a forest agreement layer over user-defined geometry in GEE.  
 
 **Key Features:**
@@ -41,30 +58,12 @@ Key steps performed by the script:
 
 **Quick View / Test in GEE**
 You can view and run the script directly in Google Earth Engine: 
-[GEE Code Editor Link](https://code.earthengine.google.com/your-script-link)
+[GEE Code Editor Link](https://code.earthengine.google.com/8adfc41e1a5107ac21586ae277d69860)
 
 ---
 > **Note:** Using the GEE sharable link directly is ONLY recommended for quick checks, testing, or exploring results, but not ideal for full development,
 since relying on the shared GEE link can make version control, reproducibility, and integration with other tools more difficult.
 ---
-
-### 2. GeoData Script
-**Purpose:** Generates a forest agreement layer over user-defined polygons or points.  
-
-**Key Features:**
-- Performs data preparation, reclassification, agreement calculation, sieve-filtering, cluster-based exports, and forest extent summaries.  
-- Includes a user section for setting parameters and an automated section that handles all processing steps.
-- For polygon datasets, the assessment is carried out directly on each polygon. For point datasets, a user-defined buffer is created around each point to simulate a polygon, and the assessment is then performed within that buffered area.
-
-**File:** `src/Geodata_script/GEE_forest_agreement_GEODATA_v1.0.js` 
-
-**Quick View / Test in GEE**: [GEE Code Editor Link](https://code.earthengine.google.com/your-script-link)
-
-
----
-> **Note:** Both scripts are designed to be modular and user-friendly, allowing you to reproduce analyses over custom ROIs or polygons/points with minimal setup.
----
-
 
 ## How to Run the Script
 1. Open the GEE Code Editor and paste the script (.js, in `src/Geodata_script/`), or use the shareable link provided at "Quick View / Test in GEE"  (using the link is not recommended for full reproducibility).  
