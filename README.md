@@ -39,7 +39,7 @@ Key steps performed by the script:
 
 **File:** `src/Geodata_script/GEE_forest_agreement_GEODATA_v1.0.js` 
 
-**Quick View / Test in GEE**: [GEE Code Editor Link](https://code.earthengine.google.com/c0fd2cfa922d3a145ead8bcd0130d932)
+**Quick View / Test in GEE**: [GEE Code Editor Link](https://code.earthengine.google.com/8adfc41e1a5107ac21586ae277d69860)
 
 
 ---
@@ -58,7 +58,7 @@ Key steps performed by the script:
 
 **Quick View / Test in GEE**
 You can view and run the script directly in Google Earth Engine: 
-[GEE Code Editor Link](https://code.earthengine.google.com/8adfc41e1a5107ac21586ae277d69860)
+[GEE Code Editor Link](https://code.earthengine.google.com/c0fd2cfa922d3a145ead8bcd0130d932)
 
 ---
 > **Note:** Using the GEE sharable link directly is ONLY recommended for quick checks, testing, or exploring results, but not ideal for full development,
