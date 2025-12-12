@@ -67,7 +67,7 @@ since relying on the shared GEE link can make version control, reproducibility, 
 
 ## How to Run the Script
 1. Open the GEE Code Editor and paste the script (.js, in `src/Geodata_script/`), or use the shareable link provided at "Quick View / Test in GEE"  (using the link is not recommended for full reproducibility).  
-2. Adjust the input parameters at the top of the script (ROI, datasets, thresholds, etc.).  
+2. Adjust the input parameters at the top of the script (input and output parameters, thresholds, etc.).  
 3. Run the script to generate the agreement layer. A detailed tutorial on running each script, along with explanations of all settings, is provided in the corresponding “docs” folder. 
 4. Export the final result if desired (e.g., to Google Drive, Earth Engine Assets).  
 
@@ -90,13 +90,13 @@ Use it as a companion to the script for understanding how the workflow fits toge
 ## Inputs and Outputs
 ### **Inputs**
 - Forest-related datasets defined within the script  
-- Paths to region of interest (ROI): geodata of the production area or a user-defined geometry
-- Thresholds used in the comparison
+- Paths to region of interest: geodata of the production area or a user-defined geometry
+- Thresholds used in the comparison (user-defined constants)
 - Data type and format options: choose input datasets, specify output format, and set export parameters
 
 ### **Outputs**
 - A simplified/limited visual GEE layer showing agreement categories  
-- Exported raster of the forest agreement layer for the ROI
+- Exported raster (GeoTIFF) of the forest agreement layer for the ROI
 - CSV file summarizing forest/tree cover area  
 
 ---
