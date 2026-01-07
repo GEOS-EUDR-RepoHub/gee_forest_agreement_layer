@@ -5,7 +5,7 @@ The **Forest Agreement Layer (FAL)** is a set of [Google Earth Engine](https://e
 
 These works are part of the [**GEOS-EUDR**](https://www.thuenen.de/de/fachinstitute/waldwirtschaft/projekte-liste/waldwirtschaft-weltweit/geos-eudr-1) research project which aims to contribute to the improved feasibility of the [**Regulation on Deforestation-free Products**](https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en) **(EUDR)** in the field of geolocation and the detection of deforestation and forest degradation using remote sensing-based products and geocomputation. GEOS-EUDR is funded by the [Federal Ministry for Economic Cooperation and Development](https://www.bmz.de/en) **(BMZ)** based on a decision by the German Bundestag.
 
-In the frame of the EUDR, agreement layers can be for example used by operators or producers for due dilligence purposes or deforestation-free compliance monitoring 
+In the frame of the EUDR, agreement layers can be for example used by operators or producers for due dilligence purposes or deforestation-free compliance monitoring. 
 
 ## Overview
 This repository hosts two Google Earth Engine (GEE) scripts designed to generate the forest agreement layer. 
