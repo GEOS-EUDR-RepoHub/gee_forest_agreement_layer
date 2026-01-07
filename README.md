@@ -48,10 +48,10 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 ---
 
 ### 2. ROI Script
-**Purpose:** Generates a forest agreement layer over user-defined geometry in GEE.  
+**Purpose:** Generates a forest agreement layer over an user-defined geometry in GEE.  
 
 **Key Features:**
-- Supports geometry drawn in the GEE Code Editor, built-in boundaries, imported from Drive/Assets, programmatically created, or derived from image/collection bounds.  
+- Supports a geometry drawn in the GEE Code Editor, built-in boundaries, imported from Drive/Assets, programmatically created, or derived from image/collection bounds.  
 - Covers data preparation, reclassification, agreement calculation, sieve-filtering, tiled-based exports, and forest extent summaries.  
 - Includes a user section for setting parameters and an automated section that handles all processing steps.  
 
