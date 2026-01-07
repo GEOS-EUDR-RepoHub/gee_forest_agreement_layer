@@ -7,7 +7,7 @@ These works are part of the [**GEOS-EUDR**](https://www.thuenen.de/de/fachinstit
 
 ## Overview
 This repository hosts two Google Earth Engine (GEE) scripts designed to generate the forest agreement layer. 
-One script generates the layer for a predefined region, while the other builds it directly from geodata inputs such as plot boundaries uploaded by a user.
+One script generates the layer for a predefined region of interest (ROI), while the other builds it directly from geodata inputs such as plot boundaries uploaded by a user.
 
 **The repository includes:**
 - **src/** – the main GEE scripts written in JavaScript  
