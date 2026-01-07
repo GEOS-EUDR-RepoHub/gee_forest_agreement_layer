@@ -1,5 +1,5 @@
 # GEE_forest_agreement_layer
-The Forest Agreement Layer is a set of GEE scripts that merges nine/ten global forest datasets into one map, separating steps needing user input from automated tasks. It highlights where sources agree on forest/tree cover, following Freitas Beyer et al. (2025).
+The Forest Agreement Layer is a set of GEE scripts that merges a series of global forest datasets into one map, separating steps needing user input from automated tasks. It highlights where sources agree on forest/tree cover, following Freitas Beyer et al. (2025).
 https://www.thuenen.de/de/fachinstitute/waldwirtschaft/projekte-liste/waldwirtschaft-weltweit/geos-eudr-1
 
 # Forest Agreement Layer – Google Earth Engine Script
