@@ -16,7 +16,7 @@ One script generates the agreement layer for a predefined region of interest (RO
 ---
 
 ## What the Script Does
-The script processes selected forest/tree cover datasets, harmonizes them for comparison, and produces an “agreement layer”. This layer (FAL) identifies where datasets align or disagree, highlighting areas where multiple map sources point in the same direction.
+The script processes selected forest/tree cover datasets, harmonizes them for comparison, and produces the **“forest agreement layer”**. This layer (FAL) identifies where datasets align or disagree, highlighting areas where multiple map sources point in the same direction.
 
 **Key steps performed by the script:**
 1. Load and prepare the input datasets  
