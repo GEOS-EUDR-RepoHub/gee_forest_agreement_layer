@@ -11,7 +11,7 @@ These works are part of the [**GEOS-EUDR**](https://www.thuenen.de/en/cross-inst
 
 ## Publications
 
-This repository is associated with several publications, dataset descriptions, and policy briefs.  
+The repository is associated with several publications, dataset descriptions, and policy briefs.  
 For detailed information, please see the dedicated [Publications](publications.md) page.
 
 ## Contact
