@@ -1,4 +1,5 @@
-![Alt text](ForestAgreementLayer.png)
+<img width="2183" height="1004" alt="ForestAgreementLayer" src="https://github.com/user-attachments/assets/d06a9274-0924-41b2-a090-a81b1d71fa43" />
+
 # GEE_forest_agreement_layer
 The **Forest Agreement Layer (FAL)** is a set of [Google Earth Engine](https://earthengine.google.com/) (GEE) scripts that merges a series of global forest datasets (9 or more) into one single map, separating steps requiring user input from automated tasks. The resulting map highlights where forest maps agree or disagree on forest/tree cover, following [Freitas Beyer et al. (2025)](https://www.mdpi.com/2072-4292/17/17/3012).
 
