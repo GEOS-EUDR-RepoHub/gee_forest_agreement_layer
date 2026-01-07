@@ -8,6 +8,7 @@ These works are part of the [**GEOS-EUDR**](https://www.thuenen.de/de/fachinstit
 **FALs can be for example used by operators or producers for due dilligence purposes or deforestation-free compliance monitoring within the frame of the EUDR.** 
 
 ---
+
 ## Publications
 
 This project is associated with several publications, dataset descriptions, and policy briefs.  
@@ -16,6 +17,7 @@ For detailed information, please see the dedicated [Publications](publications.m
 ## Contact
 If you have questions or suggestions, feel free to open an issue in this repository or reach out directly to: **geos-eudr@thuenen.de**.
 
+---
 
 ## Overview
 This repository hosts two Google Earth Engine (GEE) scripts designed to generate the forest agreement layer. 
