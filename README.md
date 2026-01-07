@@ -9,18 +9,8 @@ These works are part of the [**GEOS-EUDR**](https://www.thuenen.de/en/cross-inst
 
 ---
 
-## Publications
-
-The repository is associated with several publications, dataset descriptions, and policy briefs.  
-For detailed information, please see the dedicated [Publications](publications.md) page.
-
-## Contact
-If you have questions or suggestions, feel free to open an issue in this repository or reach out directly to: **geos-eudr@thuenen.de**.
-
----
-
 ## Overview
-This repository hosts two Google Earth Engine (GEE) scripts designed to generate the forest agreement layer. 
+The repository hosts two Google Earth Engine (GEE) scripts designed to generate the forest agreement layer. 
 One script generates the agreement layer for a predefined region of interest (ROI), while the other builds the agreement layer directly from geodata inputs such as plot boundaries uploaded by a user.
 
 **The repository includes:**
