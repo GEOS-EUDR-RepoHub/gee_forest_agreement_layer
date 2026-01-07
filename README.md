@@ -30,8 +30,6 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 
 ---
 
-## Scripts
-
 ### 1. GeoData Script
 **Purpose:** Generates a forest agreement layer over user-defined polygons or points.  
 
