@@ -1,12 +1,13 @@
 # GEE_forest_agreement_layer
-The Forest Agreement Layer is a set of GEE scripts that merges a series of global forest datasets into one map, separating steps needing user input from automated tasks. It highlights where sources agree on forest/tree cover, following Freitas Beyer et al. (2025).
-https://www.thuenen.de/de/fachinstitute/waldwirtschaft/projekte-liste/waldwirtschaft-weltweit/geos-eudr-1
+The Forest Agreement Layer (FAL) is a set of [Google Earth Engine](https://earthengine.google.com/) (GEE) scripts that merges a series of global forest datasets (9 or more) into one single map, separating steps requiring user input from automated tasks. The resulting map highlights where forest maps agree or disagree on forest/tree cover, following [Freitas Beyer et al. (2025)](https://www.mdpi.com/2072-4292/17/17/3012).
+
+FAL is part of the [GEOS-EUDR](https://www.thuenen.de/de/fachinstitute/waldwirtschaft/projekte-liste/waldwirtschaft-weltweit/geos-eudr-1) research project which is funded by the [Federal Ministry for Economic Cooperation and Development](https://www.bmz.de/en) (BMZ) based on a decision by of the German Bundestag.
 
 # Forest Agreement Layer – Google Earth Engine Script
 
 ## Overview
 This repository hosts two Google Earth Engine (GEE) scripts designed to generate the forest agreement layer. 
-One script generates the layer for a predefined region, while the other builds it directly from geodata inputs such as plot boundaries.
+One script generates the layer for a predefined region, while the other builds it directly from geodata inputs such as plot boundaries uploaded by a user.
 
 The repository includes:
 - **src/** – the main GEE scripts written in JavaScript  
@@ -15,7 +16,7 @@ The repository includes:
 ---
 
 ## What the Script Does
-The script processes selected forest/tree cover datasets, harmonizes them for comparison, and produces an “agreement layer”. This layer identifies where datasets align or disagree, highlighting areas where multiple sources point in the same direction.
+The script processes selected forest/tree cover datasets, harmonizes them for comparison, and produces an “agreement layer”. This layer (FAL) identifies where datasets align or disagree, highlighting areas where multiple map sources point in the same direction.
 
 Key steps performed by the script:
 1. Load and prepare the input datasets  
