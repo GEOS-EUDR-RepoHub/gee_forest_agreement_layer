@@ -125,5 +125,5 @@ For detailed information, please see the dedicated [Publications](publications.m
 
 
 ## Contact
-If you have questions or suggestions, feel free to open an issue in this repository or reach out directly to: **(geos-eudr@thuenen.de)**.
+If you have questions or suggestions, feel free to open an issue in this repository or reach out directly to: **geos-eudr@thuenen.de**.
 
