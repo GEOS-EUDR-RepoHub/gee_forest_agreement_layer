@@ -1,7 +1,7 @@
 # GEE_forest_agreement_layer
 The **Forest Agreement Layer (FAL)** is a set of [Google Earth Engine](https://earthengine.google.com/) (GEE) scripts that merges a series of global forest datasets (9 or more) into one single map, separating steps requiring user input from automated tasks. The resulting map highlights where forest maps agree or disagree on forest/tree cover, following [Freitas Beyer et al. (2025)](https://www.mdpi.com/2072-4292/17/17/3012).
 
-These works are part of the [**GEOS-EUDR**](https://www.thuenen.de/de/fachinstitute/waldwirtschaft/projekte-liste/waldwirtschaft-weltweit/geos-eudr-1) which has to aim to contribute to the improved feasibility of the [**Regulation on Deforestation-free Products**](https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en) **(EUDR)** in the field of geolocation and the detection of deforestation and forest degradation using remote sensing-based products and geocomputation. GEOS-EUDR is funded by the [Federal Ministry for Economic Cooperation and Development](https://www.bmz.de/en) **(BMZ)** based on a decision by of the German Bundestag.
+These works are part of the [**GEOS-EUDR**](https://www.thuenen.de/de/fachinstitute/waldwirtschaft/projekte-liste/waldwirtschaft-weltweit/geos-eudr-1) research project which aims to contribute to the improved feasibility of the [**Regulation on Deforestation-free Products**](https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en) **(EUDR)** in the field of geolocation and the detection of deforestation and forest degradation using remote sensing-based products and geocomputation. GEOS-EUDR is funded by the [Federal Ministry for Economic Cooperation and Development](https://www.bmz.de/en) **(BMZ)** based on a decision by of the German Bundestag.
 
 # Forest Agreement Layer – Google Earth Engine Script
 
@@ -9,7 +9,7 @@ These works are part of the [**GEOS-EUDR**](https://www.thuenen.de/de/fachinstit
 This repository hosts two Google Earth Engine (GEE) scripts designed to generate the forest agreement layer. 
 One script generates the layer for a predefined region, while the other builds it directly from geodata inputs such as plot boundaries uploaded by a user.
 
-The repository includes:
+**The repository includes:**
 - **src/** – the main GEE scripts written in JavaScript  
 - **docs/** – PDF tutorials that explains the reasoning, steps, and interpretation  
 
@@ -18,7 +18,7 @@ The repository includes:
 ## What the Script Does
 The script processes selected forest/tree cover datasets, harmonizes them for comparison, and produces an “agreement layer”. This layer (FAL) identifies where datasets align or disagree, highlighting areas where multiple map sources point in the same direction.
 
-Key steps performed by the script:
+**Key steps performed by the script:**
 1. Load and prepare the input datasets  
 2. Standardize spatial resolution and projections  
 3. Compare the layers and compute each agreement category
