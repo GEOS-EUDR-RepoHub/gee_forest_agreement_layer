@@ -22,7 +22,7 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 1. Load and prepare the input datasets  
 2. Standardize spatial resolution and projections  
 3. Compare the layers and compute each agreement category
-4. Filtering agreement by a defined minimum mapping unit (0.5ha)
+4. Filtering agreement by a defined minimum mapping unit (0.5 ha following the forest definition by FAO)
 5. Export or display the final map in the GEE interface
 6. Provide summary tables of forest/tree cover area  
 
@@ -44,14 +44,14 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 
 
 ---
-> **Note:** Both scripts are designed to be modular and user-friendly, allowing you to reproduce analyses over custom ROIs or polygons/points with minimal setup.
+> **Note:** Both scripts are designed to be modular and user-friendly, allowing you to reproduce analyses over custom regions of interest (ROIs) or polygons/points with minimal setup requirements.
 ---
 
 ### 2. ROI Script
 **Purpose:** Generates a forest agreement layer over user-defined geometry in GEE.  
 
 **Key Features:**
-- Supports geometry drawn in the Code Editor, built-in boundaries, imported from Drive/Assets, programmatically created, or derived from image/collection bounds.  
+- Supports geometry drawn in the GEE Code Editor, built-in boundaries, imported from Drive/Assets, programmatically created, or derived from image/collection bounds.  
 - Covers data preparation, reclassification, agreement calculation, sieve-filtering, tiled-based exports, and forest extent summaries.  
 - Includes a user section for setting parameters and an automated section that handles all processing steps.  
 
@@ -62,14 +62,14 @@ You can view and run the script directly in Google Earth Engine:
 [GEE Code Editor Link](https://code.earthengine.google.com/75f2a18de48bbcad213f35331d355ccf)
 
 ---
-> **Note:** Using the GEE sharable link directly is ONLY recommended for quick checks, testing, or exploring results, but not ideal for full development,
+> **Note:** Using the GEE sharable link directly is **ONLY** recommended for quick checks, testing, or exploring results, but not ideal for full development,
 since relying on the shared GEE link can make version control, reproducibility, and integration with other tools more difficult.
 ---
 
 ## How to Run the Script
-1. Open the GEE Code Editor and paste the script (.js, in `src/Geodata_script/`), or use the shareable link provided at "Quick View / Test in GEE"  (using the link is not recommended for full reproducibility).  
+1. Open the GEE Code Editor and paste the script (.js, in `src/Geodata_script/`), or use the shareable link provided at "Quick View / Test in GEE"  (**using the link is not recommended for full reproducibility**).  
 2. Adjust the input parameters at the top of the script (input and output parameters, thresholds, etc.).  
-3. Run the script to generate the agreement layer. A detailed tutorial on running each script, along with explanations of all settings, is provided in the corresponding “docs” folder. 
+3. Run the script to generate the forest agreement layer. A detailed tutorial on running each script, along with explanations of all settings, is provided in the corresponding **“docs”** folder. 
 4. Export the final result if desired (e.g., to Google Drive, Earth Engine Assets).  
 
 If you are new to GEE, there are tutorials at **https://developers.google.com/earth-engine/tutorials/tutorials** which can provide a guided walkthrough.
@@ -78,7 +78,7 @@ If you are new to GEE, there are tutorials at **https://developers.google.com/ea
 
 ## About the Documentation (PDFs)
 The PDF tutorial in `docs/` explains:
-- The logic behind the forest agreement concept  
+- The logic behind the forest agreement layer concept  
 - Dataset descriptions  
 - Step-by-step instructions  
 - Visual examples  
@@ -114,7 +114,7 @@ This makes it easier to use the same colors in other environments, such as GIS s
 
 This project is released under the terms of the MIT license specified in the `LICENSE` file.
 If you plan to create any material based on the Forest Agreement Layer scripts, please ensure that you cite them appropriately.
-Copyright © 2025 Thünen-Institute, Juliana Freitas Beyer, Margret Köthke, Melvin Lippe.
+Copyright © 2025 Thünen-Institute, GEOS-EUDR, Juliana Freitas Beyer, Margret Köthke, Melvin Lippe.
 
 ---
 
@@ -125,5 +125,5 @@ For detailed information, please see the dedicated [Publications](publications.m
 
 
 ## Contact
-If you have questions or suggestions, feel free to open an issue in this repository or reach out directly (geos-eudr@thuenen.de).
+If you have questions or suggestions, feel free to open an issue in this repository or reach out directly to: (geos-eudr@thuenen.de).
 
