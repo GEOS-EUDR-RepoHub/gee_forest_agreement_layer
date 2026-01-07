@@ -19,8 +19,7 @@ This repository is associated with the following publications and datasets. The 
 - **Conference:** Living Planet Symposium (ESA LPS25), 22-27 June 2025, Vienna, Austria  
 - **Organizer:** European Space Agency (ESA)  
 - **Scope:** International conference on Earth observation and sustainable resource monitoring. Work presented during one of the EUDR-related sessions.
-- **Title:** "Assessing Suitability of Available Global Forest Maps as Reference Tools for EUDR-Compliant Deforestation Monitoring"
-- **Link presentation:** https://lps25.esa.int/lps25-presentations/presentations/560/_560.pdf
+- **Link oral presentation:** https://lps25.esa.int/lps25-presentations/presentations/560/_560.pdf
 
 ---
 
