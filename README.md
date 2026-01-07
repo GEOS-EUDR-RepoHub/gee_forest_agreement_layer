@@ -7,6 +7,25 @@ These works are part of the [**GEOS-EUDR**](https://www.thuenen.de/de/fachinstit
 
 **FALs can be for example used by operators or producers for due dilligence purposes or deforestation-free compliance monitoring within the frame of the EUDR.** 
 
+---
+
+## License
+
+This project is released under the terms of the **MIT license specified in the `LICENSE` file**.
+If you plan to create any material based on the Forest Agreement Layer scripts, please ensure that you cite them appropriately.
+
+**©Copyright 2026, Thünen-Institute, GEOS-EUDR, Juliana Freitas Beyer, Margret Köthke, Melvin Lippe**.
+
+---
+
+## Publications
+
+This project is associated with several publications, dataset descriptions, and policy briefs.  
+For detailed information, please see the dedicated [Publications](publications.md) page.
+
+
+## Contact
+If you have questions or suggestions, feel free to open an issue in this repository or reach out directly to: **geos-eudr@thuenen.de**.
 ## Overview
 This repository hosts two Google Earth Engine (GEE) scripts designed to generate the forest agreement layer. 
 One script generates the agreement layer for a predefined region of interest (ROI), while the other builds the agreement layer directly from geodata inputs such as plot boundaries uploaded by a user.
