@@ -114,6 +114,7 @@ This makes it easier to use the same colors in other environments, such as GIS s
 
 This project is released under the terms of the **MIT license specified in the `LICENSE` file**.
 If you plan to create any material based on the Forest Agreement Layer scripts, please ensure that you cite them appropriately.
+
 **Copyright © 2025 Thünen-Institute, GEOS-EUDR, Juliana Freitas Beyer, Margret Köthke, Melvin Lippe**.
 
 ---
