@@ -3,7 +3,7 @@
 # Forest Agreement Layer – Google Earth Engine Script
 The **Forest Agreement Layer (FAL)** is a set of [Google Earth Engine](https://earthengine.google.com/) (GEE) scripts that merges global forest datasets (currently up to 9) into one single map, separating steps requiring user input from automated tasks. The term *forest agreement* refers to a multi-source blend of global forest and tree-cover datasets. The resulting map highlights where maps agree or disagree on forest/tree cover. 
 
-A FAL can be for example used by operators or producers for due diligence purposes relating to the [**Regulation on Deforestation-free Products**](https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en) **(EUDR)**, or for monitoring compliance with deforestation-free requirements that go beyond the scope of the regulation. 
+A FAL can be for example used by operators or producers for due diligence purposes relating to the [**Regulation on Deforestation-free Products**](https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en) **(EUDR)**, or for monitoring compliance with deforestation-free requirements that go beyond the scope of the EUDR regulation. 
 
 ---
 
