@@ -3,9 +3,9 @@
 # Forest Agreement Layer – Google Earth Engine Script
 The **Forest Agreement Layer (FAL)** is a set of [Google Earth Engine](https://earthengine.google.com/) (GEE) scripts that merges global forest datasets (currently 9 or 10) into one single map, separating steps requiring user input from automated tasks. The resulting map highlights where forest maps agree or disagree on forest/tree cover, following [Freitas Beyer et al. (2025)](https://www.mdpi.com/2072-4292/17/17/3012).
 
-These works are part of the [**GEOS-EUDR**](https://www.thuenen.de/en/cross-institutional-projects/geos-eudr) research project which aims to contribute to the improved feasibility of the [**Regulation on Deforestation-free Products**](https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en) **(EUDR)** in the field of geolocation and the detection of deforestation and forest degradation using remote sensing-based products and geocomputation. GEOS-EUDR is funded by the [Federal Ministry for Economic Cooperation and Development](https://www.bmz.de/en) **(BMZ)** based on a decision by the German Bundestag.
+For example, a FAL can be used by operators or producers for due diligence purposes relating to the EUDR, or for monitoring compliance with deforestation-free requirements that go beyond the scope of the regulation. 
 
-**FALs can be for example used by operators or producers for due dilligence purposes or deforestation-free compliance monitoring within the frame of the EUDR.** 
+This work is part of the [**GEOS-EUDR**](https://www.thuenen.de/en/cross-institutional-projects/geos-eudr) research project which aims to contribute to the improved feasibility of the [**Regulation on Deforestation-free Products**](https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en) **(EUDR)** in the field of geolocation and the detection of deforestation and forest degradation using remote sensing-based products and geocomputation. GEOS-EUDR is funded by the [Federal Ministry for Economic Cooperation and Development](https://www.bmz.de/en) **(BMZ)** based on a decision by the German Bundestag.
 
 ---
 
