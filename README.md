@@ -82,7 +82,7 @@ since relying on the shared GEE link can make version control, reproducibility, 
 3. Run the script to generate the forest agreement layer. A detailed tutorial on running each script, along with explanations of all settings, is provided in the corresponding **“docs”** folder. 
 4. Export the final result if desired (e.g., to Google Drive, Earth Engine Assets).  
 
-If you are new to GEE, there are tutorials at **https://developers.google.com/earth-engine/tutorials/tutorials** which can provide a guided walkthrough.
+If you are new to GEE, there are tutorials at https://developers.google.com/earth-engine/tutorials/tutorials which can provide a guided walkthrough.
 
 ---
 
