@@ -46,6 +46,8 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 
 **File:** `src/Geodata_script/GEE_forest_agreement_GEODATA_v1.0.js` 
 
+**Tutorial 1:** `src/Geodata_script/docs/GEOS_EUDR_Tutorial_1_Geodata.pdf`
+
 **Quick View / Test in GEE**: [GEE Code Editor Link](https://code.earthengine.google.com/8adfc41e1a5107ac21586ae277d69860)
 
 
@@ -63,7 +65,7 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 
 **File:** `src/Geodata_script/GEE_forest_agreement_ROI_v1.0.js` 
 
-**Tutorial:** `src/Geodata_script/docs/GEOS_EUDR_Tutorial_1_Geodata.pdf`
+**Tutorial 2:** `src/ROI_script/docs/GEOS_EUDR_Tutorial_2_ROI.pdf`
 
 **Quick View / Test in GEE**
 You can view and run the script directly in Google Earth Engine: 
