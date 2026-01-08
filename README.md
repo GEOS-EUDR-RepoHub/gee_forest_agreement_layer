@@ -46,7 +46,7 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 
 **File:** `src/Geodata_script/GEE_forest_agreement_GEODATA_v1.0.js` 
 
-**Tutorial 1:** [Download GEOS_EUDR_Tutorial_1_Geodata.pdf](https://github.com/user-attachments/files/24494618/GEOS_EUDR_Tutorial_1_Geodata.pdf)
+[**Tutorial 1:**](https://github.com/user-attachments/files/24494618/GEOS_EUDR_Tutorial_1_Geodata.pdf)
 
 **Quick View / Test in GEE**: [GEE Code Editor Link](https://code.earthengine.google.com/8adfc41e1a5107ac21586ae277d69860)
 
