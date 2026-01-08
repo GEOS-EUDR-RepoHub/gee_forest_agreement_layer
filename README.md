@@ -3,7 +3,7 @@
 # Forest Agreement Layer - Google Earth Engine Script
 The **Forest Agreement Layer (FAL)** is a set of [Google Earth Engine](https://earthengine.google.com/) (GEE) scripts that merges global forest datasets (currently up to 9) into one single map, separating steps requiring user input from automated tasks. The term *forest agreement* refers to a multi-source blend of global forest and tree-cover datasets. The resulting map highlights where maps agree or disagree on forest/tree cover. 
 
-A FAL can be for example used by operators or producers for due diligence purposes relating to the [**Regulation on Deforestation-free Products**](https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en) **(EUDR)**, or for monitoring compliance with deforestation-free requirements that go beyond the scope of the EUDR regulation. 
+A FAL can be for example used by operators or producers for due diligence purposes relating to the [Regulation on Deforestation-free Products](https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en) **(EUDR)**, or for monitoring compliance with deforestation-free requirements that go beyond the scope of the EUDR regulation. 
 
 ---
 
@@ -46,7 +46,7 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 
 **File:** `src/Geodata_script/GEE_forest_agreement_GEODATA_v1.0.js` 
 
-**Tutorial:** [Tutorial_1_GeoData](https://github.com/user-attachments/files/24494618/GEOS_EUDR_Tutorial_1_Geodata.pdf)
+**Tutorial 1:** [GeoData](https://github.com/user-attachments/files/24494618/GEOS_EUDR_Tutorial_1_Geodata.pdf)
 
 **Quick View / Test in GEE**: [GEE Code Editor Link](https://code.earthengine.google.com/8adfc41e1a5107ac21586ae277d69860)
 
@@ -65,7 +65,7 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 
 **File:** `src/Geodata_script/GEE_forest_agreement_ROI_v1.0.js` 
 
-**Tutorial 2:** [Tutorial_2_ROI](https://github.com/user-attachments/files/24495108/GEOS_EUDR_Tutorial_2_ROI.pdf)
+**Tutorial 2:** [ROI](https://github.com/user-attachments/files/24495108/GEOS_EUDR_Tutorial_2_ROI.pdf)
 
 
 **Quick View / Test in GEE**
