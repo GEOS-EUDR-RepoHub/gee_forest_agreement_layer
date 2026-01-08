@@ -62,7 +62,7 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 - Includes a user section for setting parameters and an automated section that handles all processing steps.  
 
 **File:** `src/Geodata_script/GEE_forest_agreement_ROI_v1.0.js` 
-**Tutorial:** src/Geodata_script/docs/GEOS_EUDR_Tutorial_1_Geodata.pdf
+**Tutorial:** `src/Geodata_script/docs/GEOS_EUDR_Tutorial_1_Geodata.pdf`
 
 **Quick View / Test in GEE**
 You can view and run the script directly in Google Earth Engine: 
