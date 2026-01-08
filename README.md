@@ -11,7 +11,7 @@ The approach builds on the work of [Freitas Beyer et al. (2025)](https://www.mdp
 
 The FAL product here remains closely aligned with the criteria defined in the original study by Freitas Beyer et al. (2025). However, because the Global Forest Types 2020 dataset was released after the article’s final compilation in November 2024, it could not be included in their assessment. The GEE script allows users to extend the currently hosted 9 datasets further based on individual needs or requirements.  
 
-This work is part of the [**GEOS-EUDR**](https://www.thuenen.de/en/cross-institutional-projects/geos-eudr) research project which aims to contribute to the improved feasibility of the EUDR in the field of geolocation and the detection of deforestation and forest degradation using remote sensing-based products and geocomputation. GEOS-EUDR is funded by the [Federal Ministry for Economic Cooperation and Development](https://www.bmz.de/en) **(BMZ)** based on a decision by the German Bundestag.
+This work is part of the [**GEOS-EUDR**](https://www.thuenen.de/en/cross-institutional-projects/geos-eudr) research project which aims to contribute to the improved feasibility of the EUDR in the field of geolocation and the detection of deforestation and forest degradation using remote sensing-based products and geocomputation. GEOS-EUDR is funded by the [Federal Ministry for Economic Cooperation and Development](https://www.bmz.de/en) (BMZ) based on a decision by the German Bundestag.
 
 ---
 
