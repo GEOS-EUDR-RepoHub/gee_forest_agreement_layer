@@ -18,7 +18,7 @@ The repository hosts two Google Earth Engine (GEE) scripts designed to generate 
 One script generates the agreement layer for a predefined region of interest (ROI), while the other builds the agreement layer directly from geodata inputs such as plot boundaries uploaded by a user.
 
 **The repository includes:**
-- **src/** – the main GEE scripts written in JavaScript  
+- **src/** – the main GEE scripts written in JavaScript
 - **docs/** – PDF tutorials that explains the reasoning, steps, and interpretation  
 
 ---
@@ -46,7 +46,7 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 
 **File:** `src/Geodata_script/GEE_forest_agreement_GEODATA_v1.0.js` 
 
-[**Tutorial 1:**](https://github.com/user-attachments/files/24494618/GEOS_EUDR_Tutorial_1_Geodata.pdf)
+**Tutorial:** [Tutorial_1_GeoData](https://github.com/user-attachments/files/24494618/GEOS_EUDR_Tutorial_1_Geodata.pdf)
 
 **Quick View / Test in GEE**: [GEE Code Editor Link](https://code.earthengine.google.com/8adfc41e1a5107ac21586ae277d69860)
 
@@ -65,7 +65,8 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 
 **File:** `src/Geodata_script/GEE_forest_agreement_ROI_v1.0.js` 
 
-**Tutorial 2:** `src/ROI_script/docs/GEOS_EUDR_Tutorial_2_ROI.pdf`
+**Tutorial 2:** [Tutorial_2_ROI](https://github.com/user-attachments/files/24495108/GEOS_EUDR_Tutorial_2_ROI.pdf)
+
 
 **Quick View / Test in GEE**
 You can view and run the script directly in Google Earth Engine: 
