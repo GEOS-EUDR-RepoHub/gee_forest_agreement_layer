@@ -90,7 +90,7 @@ If you are new to GEE, there are tutorials at https://developers.google.com/eart
 ---
 
 ## About the Documentation (PDFs)
-The PDF tutorial in `docs/` explains:
+The PDF tutorials in `docs/` and the links above explain:
 - The logic behind the forest agreement layer concept  
 - Dataset descriptions  
 - Step-by-step instructions  
