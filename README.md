@@ -37,9 +37,9 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 6. Provide summary tables of forest/tree cover area  
 
 ---
-
+<span style="color:blue;">
 > **Note:** Both scripts are designed to be modular and user-friendly, allowing you to reproduce analyses over custom regions of interest (ROIs) or polygons/points with minimal setup requirements.
-
+</span>
 ---
 
 ### 1. GeoData Script
