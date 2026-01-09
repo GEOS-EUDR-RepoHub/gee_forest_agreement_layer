@@ -68,8 +68,6 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 
 **Tutorial 2:** [ROI](https://github.com/user-attachments/files/24526103/GEOS_EUDR_Tutorial_2_ROI.pdf)
 
-
-
 **Quick View / Test in GEE**
 You can view and run the script directly in Google Earth Engine: 
 [GEE Code Editor Link](https://code.earthengine.google.com/75f2a18de48bbcad213f35331d355ccf)
@@ -132,16 +130,17 @@ If you plan to create any material based on the Forest Agreement Layer scripts, 
 
 ---
 
-## Suggested Citation
-Freitas Beyer, J., Köthke, M., & Lippe, M. (2026). GEOS-EUDR: Forest Agreement Layer - Google Earth Engine Script (Version 1). Zenodo. https://doi.org/10.5281/zenodo.18174580
-
----
-
 ## Publications
 
 This project is associated with several publications, dataset descriptions, and policy briefs.  
 For detailed information, please see the dedicated [Publications](publications.md) page.
 
+---
+
+## Suggested Citation
+Freitas Beyer, J., Köthke, M., & Lippe, M. (2026). GEOS-EUDR: Forest Agreement Layer - Google Earth Engine Script (Version 1). Zenodo. https://doi.org/10.5281/zenodo.18174580
+
+---
 
 ## Contact
 If you have questions or suggestions, feel free to open an issue in this repository or reach out to: **geos-eudr@thuenen.de**.
