@@ -39,7 +39,7 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 ---
 
 ### 1. GeoData Script
-**Purpose:** Generates a forest agreement layer over user-defined polygons or points.  
+**Purpose:** Generates a FAL over user-defined polygons or points.  
 
 **Key Features:**
 - Performs data preparation, reclassification, agreement calculation, sieve-filtering, cluster-based exports, and forest extent summaries.  
@@ -58,7 +58,7 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 ---
 
 ### 2. ROI Script
-**Purpose:** Generates a forest agreement layer over an user-defined geometry in GEE.  
+**Purpose:** Generates a FAL over an user-defined geometry in GEE.  
 
 **Key Features:**
 - Supports a geometry drawn in the GEE Code Editor, built-in boundaries, imported from Drive/Assets, programmatically created, or derived from image/collection bounds.  
