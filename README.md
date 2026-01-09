@@ -37,6 +37,10 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 6. Provide summary tables of forest/tree cover area  
 
 ---
+> **Note:** Both scripts are designed to be modular and user-friendly, allowing you to reproduce analyses over custom regions of interest (ROIs) or polygons/points with minimal setup requirements.
+---
+
+---
 
 ### 1. GeoData Script
 **Purpose:** Generates a FAL over user-defined polygons or points.  
@@ -52,9 +56,6 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 
 **Quick View / Test in GEE**: [GEE Code Editor Link](https://code.earthengine.google.com/8adfc41e1a5107ac21586ae277d69860)
 
-
----
-<span style="color:#1f77b4;">**Note:** Both scripts are designed to be modular and user-friendly, allowing you to reproduce analyses over custom regions of interest (ROIs) or polygons/points with minimal setup requirements.</span>
 ---
 
 ### 2. ROI Script
