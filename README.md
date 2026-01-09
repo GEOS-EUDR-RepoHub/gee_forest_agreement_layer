@@ -143,5 +143,5 @@ Freitas Beyer, J., Köthke, M., & Lippe, M. (2026). GEOS-EUDR: Forest Agreement 
 ---
 
 ## Contact
-If you have questions or suggestions, feel free to open an issue in this repository or reach out to: **geos-eudr@thuenen.de**.
+If you have questions or suggestions, feel free to open an issue or reach out to: **geos-eudr@thuenen.de**.
 
