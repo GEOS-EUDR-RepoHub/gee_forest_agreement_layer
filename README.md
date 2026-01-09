@@ -132,6 +132,11 @@ If you plan to create any material based on the Forest Agreement Layer scripts, 
 
 ---
 
+## Suggested Citation
+Freitas Beyer, J., Köthke, M., & Lippe, M. (2026). GEOS-EUDR: Forest Agreement Layer - Google Earth Engine Script (Version 1). Zenodo. https://doi.org/10.5281/zenodo.18174580
+
+---
+
 ## Publications
 
 This project is associated with several publications, dataset descriptions, and policy briefs.  
