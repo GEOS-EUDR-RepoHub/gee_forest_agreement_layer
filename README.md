@@ -41,7 +41,7 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 ---
 
 ### 1. GeoData Script
-**Purpose:** Generates a FAL over user-defined polygons or points.  
+**Purpose:** Generates a FAL over user-defined polygons or points in GEE.  
 
 **Key Features:**
 - Performs data preparation, reclassification, agreement calculation, sieve-filtering, cluster-based exports, and forest extent summaries.  
