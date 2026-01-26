@@ -9,7 +9,7 @@ A FAL can be for example used for due diligence purposes relating to the [Regula
 
 The approach builds on the work of [Freitas Beyer et al. (2025)](https://www.mdpi.com/2072-4292/17/17/3012), who identified eight datasets as particularly well suited for compliance verification under the EUDR. The current version of the collection extends this foundation by adding a ninth dataset *Global Forest Types 2020, v0* (Bourgoin et al., 2024) which is available through the [JRC portal](https://forobs.jrc.ec.europa.eu/GFT) and the [Google Earth Engine catalog](https://developers.google.com/earth-engine/datasets/catalog/JRC_GFC2020_subtypes_V0). 
 
-The current FAL product here remains closely aligned with the criteria defined in the original study by Freitas Beyer et al. (2025). However, as the Global Forest Types 2020 dataset was released after the article’s final compilation in November 2024, it could not be included in their assessment. Nevertheless, the GEE script allows users to expand the nine currently curated datasets according to their needs or data requirements.  
+The current FAL product here remains closely aligned with the criteria defined in the original study by Freitas Beyer et al. (2025). However, as the Global Forest Types 2020 dataset was released after the article’s final compilation in November 2024, it could not be included in their assessment. Nevertheless, the GEE script allows users to expand the nine currently curated datasets according to their FAL needs or data requirements.  
 
 This work is part of the [**GEOS-EUDR**](https://www.thuenen.de/en/cross-institutional-projects/geos-eudr) research project and aims to improve the feasibility of the EUDR in the field of geolocation and the detection of deforestation and forest degradation using remote sensing-based products and geocomputation. GEOS-EUDR is funded by the [Federal Ministry for Economic Cooperation and Development](https://www.bmz.de/en) (BMZ) based on a decision by the German Bundestag.
 
@@ -144,5 +144,6 @@ Freitas Beyer, J., Köthke, M., & Lippe, M. (2026). GEOS-EUDR: Forest Agreement 
 
 ## Contact
 If you have questions or suggestions, feel free to open an issue or reach out to: **geos-eudr@thuenen.de**.
+
 
 
