@@ -138,12 +138,13 @@ For detailed information, please see the dedicated [Publications](publications.m
 ---
 
 ## Suggested Citation
-Freitas Beyer, J., Köthke, M., & Lippe, M. (2026). GEOS-EUDR: Forest Agreement Layer - Google Earth Engine Script (Version 1). Zenodo. https://doi.org/10.5281/zenodo.18174580
+Freitas Beyer, J., Köthke, M., & Lippe, M. (2026). Forest Agreement Layer (FAL) - Google Earth Engine Script (Version 1). Zenodo. https://doi.org/10.5281/zenodo.18399645
 
 ---
 
 ## Contact
 If you have questions or suggestions, feel free to open an issue or reach out to: **geos-eudr@thuenen.de**.
+
 
 
 
