@@ -49,8 +49,8 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 - For polygon datasets, the assessment is carried out directly on each polygon. For point datasets, a user-defined buffer is created around each point to simulate a polygon, and the assessment is then performed within that buffered area.
 
 **File:** 
--`src/Geodata_script/GEE_forest_agreement_GEODATA_v1.0.js` 
--`src/Geodata_script/GEE_forest_agreement_GEODATA_v1.0.1.js` *(Newest version)*
+- `src/Geodata_script/GEE_forest_agreement_GEODATA_v1.0.js` 
+- `src/Geodata_script/GEE_forest_agreement_GEODATA_v1.0.1.js` *(Newest version)*
 
 **Tutorial 1:** [GeoData](https://github.com/user-attachments/files/24526098/GEOS_EUDR_Tutorial_1_Geodata.pdf)
 
@@ -67,8 +67,8 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 - Includes a user section for setting parameters and an automated section that handles all processing steps.  
 
 **File:** 
--`src/Geodata_script/GEE_forest_agreement_ROI_v1.0.js` 
--`src/Geodata_script/GEE_forest_agreement_ROI_v1.0.1.js` *(Newest version)*
+- `src/Geodata_script/GEE_forest_agreement_ROI_v1.0.js` 
+- `src/Geodata_script/GEE_forest_agreement_ROI_v1.0.1.js` *(Newest version)*
 
 **Tutorial 2:** [ROI](https://github.com/user-attachments/files/24526103/GEOS_EUDR_Tutorial_2_ROI.pdf)
 
