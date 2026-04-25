@@ -47,6 +47,7 @@ var BUFFER_HA = 0.6; // Recommended minimum size should be greater than 0.5 ha, 
 // 3. Specify the path to the geodata stored in Assets.
 var SHAPEFILE_PATH = 'projects/ee-yourusername/assets/your_geodata_here'; // <-- Replace with your username and asset name
 
+
 ///////////////////////////////////////
 // PART 0B: OUTPUT SETTINGS (EXPORT)
 ///////////////////////////////////////
@@ -55,7 +56,7 @@ var SHAPEFILE_PATH = 'projects/ee-yourusername/assets/your_geodata_here'; // <--
 // 1. Choose where the forest-agreement layer will be exported.
 //    'Drive' → saves the file to your Google Drive
 //    'Asset' → saves the file to your Earth Engine Assets (shown in the left panel)
-var EXPORT_TARGET = 'Drive';   // Options: 'Drive' or 'Dsset'
+var EXPORT_TARGET = 'Drive';   // Options: 'Drive' or 'Asset'
 
 
 // 2. Settings used ONLY when EXPORT_TARGET = 'Asset'
@@ -97,10 +98,16 @@ var shp_data = ee.FeatureCollection(SHAPEFILE_PATH);
 var firstFeature = shp_data.first();
 var actualType = firstFeature.geometry().type().getInfo();
 
-if (actualType !== GEODATA_TYPE) {
+if (GEODATA_TYPE === 'Polygon' &&
+   (actualType !== 'Polygon' && actualType !== 'MultiPolygon')) {
   throw new Error(
-    'ERROR: GEODATA_TYPE does not match the shapefile geometry.\n' +
-    'Selected: ' + GEODATA_TYPE + ', Actual: ' + actualType
+    'ERROR: Expected Polygon or MultiPolygon, got: ' + actualType
+  );
+}
+
+if (GEODATA_TYPE === 'Point' && actualType !== 'Point') {
+  throw new Error(
+    'ERROR: Expected Point geometry, got: ' + actualType
   );
 }
 
@@ -143,6 +150,7 @@ if (GEODATA_TYPE === 'Point') {
 } else {
   throw 'GEODATA_TYPE must be either "Point" or "Polygon"';
 }
+
 
 // Step 2: cluster bounding boxes
 var clusterBoundsFC = clusterBoundingBoxes(inputForClustering);
