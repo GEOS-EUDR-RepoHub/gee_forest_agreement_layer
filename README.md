@@ -54,7 +54,7 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 
 **Tutorial 1:** [GeoData](https://github.com/user-attachments/files/24526098/GEOS_EUDR_Tutorial_1_Geodata.pdf)
 
-**Quick View / Test in GEE**: [GEE Code Editor Link](https://code.earthengine.google.com/3fcd8017a47367e5e200755bad55c583)
+**Quick View / Test in GEE**: [GEE Code Editor Link](https://code.earthengine.google.com/96a0d5ea4670f6e78bbe001aa2aaf435)
 
 ---
 
