@@ -48,13 +48,14 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 - Includes a user section for setting parameters and an automated section that handles all processing steps.
 - For polygon datasets, the assessment is carried out directly on each polygon. For point datasets, a user-defined buffer is created around each point to simulate a polygon, and the assessment is then performed within that buffered area.
 
-**File:** 
+**Files:** 
 - `src/Geodata_script/GEE_forest_agreement_GEODATA_v1.0.js` 
-- `src/Geodata_script/GEE_forest_agreement_GEODATA_v1.0.1.js` *(Newest version)*
+- `src/Geodata_script/GEE_forest_agreement_GEODATA_v1.0.1.js` 
+- `src/Geodata_script/GEE_forest_agreement_GEODATA_v1.0.2.js` *(Newest version, updated with 11 Maps!)*
 
 **Tutorial 1:** [GeoData](https://github.com/user-attachments/files/24526098/GEOS_EUDR_Tutorial_1_Geodata.pdf)
 
-**Quick View / Test in GEE**: [GEE Code Editor Link](https://code.earthengine.google.com/96a0d5ea4670f6e78bbe001aa2aaf435)
+**Quick View / Test in GEE**: [GEE Code Editor Link](https://code.earthengine.google.com/19d2d9c912ab63e688232778026e56be)
 
 ---
 
@@ -68,13 +69,15 @@ The script processes selected forest/tree cover datasets, harmonizes them for co
 
 **File:** 
 - `src/Geodata_script/GEE_forest_agreement_ROI_v1.0.js` 
-- `src/Geodata_script/GEE_forest_agreement_ROI_v1.0.1.js` *(Newest version)*
+- `src/Geodata_script/GEE_forest_agreement_ROI_v1.0.1.js`
+- `src/Geodata_script/GEE_forest_agreement_ROI_v1.0.2.js` *(Newest version, updated with 11 Maps!)*
 
 **Tutorial 2:** [ROI](https://github.com/user-attachments/files/24526103/GEOS_EUDR_Tutorial_2_ROI.pdf)
 
 **Quick View / Test in GEE**
 You can view and run the script directly in Google Earth Engine: 
-[GEE Code Editor Link](https://code.earthengine.google.com/81b8a159786d89e87e06687001c5134e)
+[GEE Code Editor Link](https://code.earthengine.google.com/9361845feaae96ea26fa6f87f00de068)
+
 
 ---
 > **Note:** Using the GEE sharable link directly is **ONLY** recommended for quick checks, testing, or exploring results, but not ideal for full development,
@@ -91,9 +94,10 @@ If you are new to GEE, there are tutorials at https://developers.google.com/eart
 
 ---
 
-## About the Documentation (PDFs)
-The PDF tutorials in `docs/` and the links above explain:
-- The logic behind the forest agreement layer concept  
+## About the Documentation (PDFs and UML-Unified Modeling Language)
+The PDF tutorials, UML-graph in `docs/` and the links above explain:
+- The logic behind the forest agreement layer concept
+- The system architecture and workflow interactions represented in the UML diagram  
 - Dataset descriptions  
 - Step-by-step instructions  
 - Visual examples  
